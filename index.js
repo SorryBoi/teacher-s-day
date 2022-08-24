@@ -1,4 +1,4 @@
-<script>
+
       const startit = () => {
         setTimeout(function () {
           confetti.start();
@@ -231,4 +231,4 @@
     }
   }
 })();
-    </script>
+
