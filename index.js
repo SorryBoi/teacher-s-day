@@ -13,10 +13,6 @@
 
       startit();
       stopit();
-   
-    
-
-    <script type="text/javascript">
 
       var confetti = {
   maxCount: 150,    //set max confetti count
