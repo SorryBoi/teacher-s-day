@@ -13,7 +13,7 @@
 
       startit();
       stopit();
-    </script>
+   
     
 
     <script type="text/javascript">
