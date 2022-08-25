@@ -6,9 +6,11 @@ body {
 }
 
 h3{
-   font-family:sans-serif;
+   font-family: &#39;
+  CoreCircus&#39;
+  , sans-serif;
    text-transform: uppercase;
-   font-size: 30px;
+   font-size: 25px;
    text-align: center;
    line-height: 1;
    margin: 0;
