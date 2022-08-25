@@ -4,24 +4,42 @@ body {
   height: 100%;
   background:linear-gradient(10deg, rgba(244,235,160,1) 43%,rgba(192,250,202,1) 43%);
 }
-
-h3{
-   font-family: &#39;
-  CoreCircus&#39;
+p span {
+   font: 700 4em &#34;
+  Oswald&#34;
   , sans-serif;
-   text-transform: uppercase;
-   font-size: 25px;
+  font-weight: bold;
+   letter-spacing: 0;
+   font-size: 50px;
+    margin: 0;
+   top: 75%;
+   left: 35%;
    text-align: center;
-   line-height: 1;
-   margin: 0;
-   top: 78%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   letter-spacing: 5px;
    position: absolute;
-   color: #f98ca4;
-   text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 10px 10px 4px #dac249;
+   display: block;
+   margin: 0 auto;
+   text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+  
+   background: url(https://www.xmple.com/wallpaper/black-pink-stripes-streaks-lines-purple-blue-1920x1080-c6-000000-9400d3-ff1493-483d8b-4169e1-4682b4-l6-198-198-198-198-198-198-a-240-f-1.svg) repeat-y;
+   -webkit-background-clip: text;
+   background-clip: text;
+ 
+   -webkit-text-fill-color: transparent;
+   -webkit-animation: aitf 30s linear infinite;
+
+   -webkit-transform: translate3d(0, 0, 0);
+   -webkit-backface-visibility: hidden;
 }
+/* Animate Background Image */
+ @-webkit-keyframes aitf {
+   0% {
+     background-position: 0% 50%;
+  }
+   100% {
+     background-position: 100% 50%;
+  }
+}
+
  h1 {
    font-family: &#39;
   CoreCircus&#39;
